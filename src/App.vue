@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-   
-    <HelloWorld />
+    <DraggableComponent />
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import DraggableComponent from './components/DraggableComponent.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld,
+    DraggableComponent
   }
 }
 </script>
